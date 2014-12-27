@@ -9,6 +9,7 @@ npm install ampersand-hoodie-model
 
 ## example
 
+```javascript
 var AmpersandHoodieModel = require('./ampersand-hoodie-model');
 
 module.exports = AmpersandHoodieModel.extend({
@@ -22,7 +23,8 @@ module.exports = AmpersandHoodieModel.extend({
         HOODIE_TYPE: ['string', true, 'person'],
         selected: ['boolean', true, false]
     },
-
+    ...
+```    
 ## usage
 
 The only critical usage note is that implementing classes must declare a value for the HOODIE_TYPE property.
